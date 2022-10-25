@@ -8,11 +8,13 @@
 
 int_strlen(char *s)
 {
-	input p = 0;
-	/* incremeant up to when the last character is NULL,\0*/
-	while (*(s + p) != 0)
+	int len = 0;
+
+	while (*s != '\0')
 	{
-		p++;
+		len++;
+		s++;
 	}
-	return (p);
+
+	return (len);
 }
