@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update the vakue of n to 98
- * @n: input
- * Return: n
+ * reset_to_98 - Reset the value of a variable back to 98.
+ * @n: variable to be reset.
+ * Return: Void.
  */
 void reset_to_98(int *n)
 {
