@@ -1,16 +1,17 @@
-#include "main.h"
 #include <stdio.h>
+#define UNUSED(x)(void)(x)
 
 /**
- * main - prints the number of args
- * @argc: argument count
- * @argv: argument vector
+ * main - function
+ * @argv: the chaine of chaine
+ * @argc: the int
  *
- * Return: Always zero
+ * Return: Always 0.
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	(void)argv;
+	UNUSED(argv);
 	printf("%d\n", argc - 1);
+
 	return (0);
 }
